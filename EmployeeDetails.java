@@ -1,7 +1,7 @@
 package LibraryManagementSystem;
 
 public class EmployeeDetails {
-    private int employeeId;
+    private int employeeId;  // encapsulation
     private String name;
     private int age;
     private String position;
@@ -15,9 +15,10 @@ public class EmployeeDetails {
                 "\n" + "Age: " + this.age +
                 "\n" + "Position: " + this.position +
                 "\n" + "Salary: " + this.salary + "\n ---------------------";
-          
     }
 
+
+    // constructor
     public EmployeeDetails(int employeeId, String name, int age, String position, double salary) {
         this.employeeId = employeeId;
         this.name = name;

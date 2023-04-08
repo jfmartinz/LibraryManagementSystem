@@ -16,8 +16,8 @@ public class employeeManagement {
             int choice = sc.nextInt();
 
             switch (choice) {
-                case 1:
-                    int employeeId = (int) (Math.random() * 9999); // 0 to 100
+                case 1: 
+                    int employeeId = (int) (Math.random() * 9999); // 0 to 9999. generate random number for employee's ID.
                     System.out.print("Your ID: " + employeeId);
                     System.out.print("\nEnter your name: ");
                     String name = sc.next();
@@ -32,24 +32,24 @@ public class employeeManagement {
                     lib.addEmployee(employeeId, name, age, position, salary);
                     break;
 
-                case 2:
+                case 2: // SEARCH
                     lib.searchEmployee();
                     break;
 
-                case 3:
+                case 3: // UPDATING
                     lib.updateEmployee();
                     System.out.println("---------------------");
                     break;
 
-                case 4:
+                case 4: // DELETING
                     lib.delEmployee();
                     break;
 
-                case 5:
+                case 5: // DISPLAy
                     lib.displayEmployee();
                     break;
 
-                case 6:
+                case 6: // EXIT
                     quit = true;
                     System.out.println("Thank you for using our program!!");
                     break;
@@ -59,7 +59,7 @@ public class employeeManagement {
 
     }
 
-    // menu for the employeee
+    // basic functionality or menu of the program.
 
     private static void menu() {
         System.out.println("***Employee Management System***"

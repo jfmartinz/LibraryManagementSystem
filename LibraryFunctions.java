@@ -93,7 +93,7 @@ public class LibraryFunctions {
     // display all the employees
 
     public void displayEmployee() {
-        for (EmployeeDetails emps : emps) {
+        for (EmployeeDetails emps : emps) { 
             System.out.println(emps);
         }
     }

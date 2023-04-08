@@ -6,7 +6,6 @@ public class employeeManagement {
     public static void main(String[] args) {
 
         LibraryFunctions lib = new LibraryFunctions();
-       
 
         Scanner sc = new Scanner(System.in);
         menu(); // menu or the options of the program
@@ -18,7 +17,7 @@ public class employeeManagement {
 
             switch (choice) {
                 case 1:
-                    int employeeId = (int) (Math.random() * 101); // 0 to 100
+                    int employeeId = (int) (Math.random() * 9999); // 0 to 100
                     System.out.print("Your ID: " + employeeId);
                     System.out.print("\nEnter your name: ");
                     String name = sc.next();
@@ -28,23 +27,26 @@ public class employeeManagement {
                     String position = sc.next();
                     System.out.print("Salary: ");
                     Double salary = sc.nextDouble();
-                    System.out.println("The employee was added with id of " + employeeId);
+                    System.out.println("**The employee was added with an id of " + employeeId + "**");
                     System.out.println("---------------------");
                     lib.addEmployee(employeeId, name, age, position, salary);
                     break;
 
                 case 2:
-                    lib.viewEmployee();
-                    System.out.println("---------------------");
+                    lib.searchEmployee();
                     break;
 
                 case 3:
+                    lib.updateEmployee();
+                    System.out.println("---------------------");
                     break;
 
                 case 4:
+                    lib.delEmployee();
                     break;
 
                 case 5:
+                    lib.displayEmployee();
                     break;
 
                 case 6:
@@ -62,7 +64,7 @@ public class employeeManagement {
     private static void menu() {
         System.out.println("***Employee Management System***"
                 + "\n Add Employee(1)"
-                + "\n View Employee(2)"
+                + "\n Search Employee(2)"
                 + "\n Update Employee(3)"
                 + "\n Delete Employee(4)"
                 + "\n Display all Employee(5)"

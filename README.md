@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 # Employee Management Application
 Welcome to my simple Employee Management Application! This application is designed to manage employee data using object-oriented programming (OOP) concepts in Java. It demonstrates the basic principles of OOP, such as constructors, getter and setter methods, encapsulation, and more. The application is functional and provides the following features:
 
-=======
-# Welcome to my simple Employee Management Application
- This application is designed to manage employee data using **object-oriented programming** (OOP) concepts in Java. I used constructor, getter and setter, encapsulation, and many more. The application is functional, but there is one **issue**: it lacks proper exception handling. This means that errors can occur when users input incorrect values, such as inputting an integer when prompted to input their name, and many many more error that you might encounter in **run time**. The main point of this to demonstrate the basic of OOP in Java. ❤️
- 
->>>>>>> 07484cd8178c886abdb4e2ff5a19bf66d363d869
 ---
 
 ## Functionality of the program 💻

@@ -38,31 +38,13 @@ Welcome to my simple Employee Management Application! This application is design
 
 ---
 
-## Learnings & Challenges 
-Throughout the development of my Java employee management application, I encountered several challenges and faced struggles. Some of the major challenges I faced include:
 
-- **Implementing Data Structure:** I find it hard implementing the data structure for the project, which involved using a linked list. However, with the help of online resources like Google and YouTube tutorials, as well as ChatGPT, I managed to overcome this challenge and successfully completed the implementation. This experience taught me the importance of seeking out available resources and utilizing them effectively to acquire new knowledge and skills.
 
-- **Functionalty of the program:** Another significant challenge I encountered was implementing the functionality of the program, specifically tasks such as deleting, adding, and searching for employees. I found these aspects particularly challenging because they required a deep understanding of data manipulation and logical thinking. To overcome this hurdle, I watched various tutorials that guided me through the project step by step. 
+#### Connect with me 🤝
 
-- **Best Practices:** One area where I faced uncertainty was maintaining good practices, including commenting, writing clean code, descriptive names, methods and more. Despite my best efforts, I often questioned whether I had adhered to best practices throughout my code. While struggling with this aspect, I realized the importance of continuously improving my code quality by continuing and exposing myself to other experienced developers to learn from them. This experience taught me the significance of writing code that is not only functional but also maintainable and understandable to others.
-
-Throughout the development of my Java employee management application, I gained several valuable learnings. These include:
-
-- **Implementation of data structures:** I learned how to implement a linked list with OOP concepts, which improved my understanding of fundamental data structures. Additionally, I gained proficiency in object-oriented programming (OOP) concepts such as classes, methods, encapsulation, and getter/setter methods. This experience enhanced my ability to design and organize code effectively.
-
-- **Problem-solving and critical thinking skills:** Developing the application challenged me to improve my problem-solving skills. I had to think critically to address various requirements and functionalities. This process honed my ability to analyze problems, break them down into smaller components, and devise efficient solutions. Moreover, working with Java and OOP further enhanced my overall Java proficiency.
-
-- **Code readability and maintainability:** I learned the importance of writing clean and readable code. By focusing on practices such as proper commenting, organizing methods, and following coding conventions, I discovered how readability contributes to code maintainability. Understanding the significance of this aspect motivated me to continuously improve my coding style and collaborate with others in the programming community for learning and growth.
-
-- **Learning from others' code:** I realized that seeking solutions or taking tutorials is not a negative practice. Instead, it can be a valuable learning opportunity. By examining and understanding others' code, I was able to expand my knowledge and gain insights into different approaches and techniques. As long as you understand the code and able to explain it to yourself.
-
----
-
-## Conclusion
-In conclusion, this simple Employee Management Application demonstrates the fundamental concepts of OOP in Java. Through perseverance and the utilization of available resources, I have successfully completed this project. This project was a personal project and was not part of my university coursework. I undertook this project to familiarize myself with the fundamentals of OOP in Java and enhance my coding skills. By embarking on projects like this, even with guidance, I strongly believe that I have gained a solid knowledge and improved my understanding of OOP concepts.
-
- Feel free to look at the source code above and let me know your thoughts about it. Happy coding! 🚀
+Twitter: [@jfmartinz](https://twitter.com/jfmartinz)<br>
+LinkedIn: [@jfmartinz](https://www.linkedin.com/in/jfmartinz/)<br>
+Github: [@jfmartinz](https://github.com/jfmartinz)
 
 
 
